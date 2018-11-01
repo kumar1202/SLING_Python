@@ -1,5 +1,5 @@
-# sling_pytorch
-PyTorch Implementation of Google SLING 
+# SLING_Python
+Python Implementation of Google SLING 
 
 https://github.com/ontonotes
 
