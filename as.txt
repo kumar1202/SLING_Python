@@ -1,0 +1,53 @@
+{=#1 
+  :/s/document
+  /s/document/text: "As I love you"
+  /s/document/tokens: [{=#2 
+    :/s/token
+    /s/token/index: 0
+    /s/token/text: "As"
+    /s/token/start: 0
+    /s/token/length: 2
+    /s/token/break: 0
+  }, {=#3 
+    :/s/token
+    /s/token/index: 1
+    /s/token/text: "I"
+    /s/token/start: 3
+    /s/token/length: 1
+  }, {=#4 
+    :/s/token
+    /s/token/index: 2
+    /s/token/text: "love"
+    /s/token/start: 5
+    /s/token/length: 4
+  }, {=#5 
+    :/s/token
+    /s/token/index: 3
+    /s/token/text: "you"
+    /s/token/start: 10
+    /s/token/length: 3
+  }]
+  /s/document/mention: {=#6 
+    :/s/phrase
+    /s/phrase/begin: 1
+    /s/phrase/evokes: {=#7 
+      :/saft/person
+    }
+  }
+  /s/document/mention: {=#8 
+    :/s/phrase
+    /s/phrase/begin: 2
+    /s/phrase/evokes: {=#9 
+      :/pb/love-01
+      /pb/arg0: #7
+      /pb/arg1: {=#10 
+        :/saft/other
+      }
+    }
+  }
+  /s/document/mention: {=#11 
+    :/s/phrase
+    /s/phrase/begin: 3
+    /s/phrase/evokes: #10
+  }
+}
