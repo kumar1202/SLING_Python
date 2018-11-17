@@ -1,4 +1,4 @@
-# SLING_Python
+# SLING_Python How to run the model?
 Python Implementation of Google SLING 
 
 https://github.com/ontonotes
